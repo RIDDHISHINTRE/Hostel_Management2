@@ -7,7 +7,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "leave")
+@Table(name = "leave_table")
 @Data
 public class Leave {
 

@@ -54,4 +54,7 @@ public class Student {
     @Column(nullable = false)
     private String year;
 
+    @Version
+    private Long version;
+
 }

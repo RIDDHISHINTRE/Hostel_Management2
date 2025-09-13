@@ -27,7 +27,6 @@ public class ComplaintRoutes {
         return complaintService.getAllComplaints();
     }
 
-
     // Get leaves by Student ID
     @GetMapping("/{studentId}")
     public List<Complaint> getLeavesByStudentId(@PathVariable Long studentId) {
